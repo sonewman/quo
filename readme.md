@@ -34,7 +34,7 @@ The context is passed as the first argument:
 ```javascript
 app.use(quo(async ctx => {
   ctx.status = 418;
-  return 'I\'m a teapot
+  return 'I\'m a teapot'
 }));
 ```
 
@@ -54,6 +54,7 @@ app.use(
       }
     }));
 ```
+
 
 ## Licence
 ISC
