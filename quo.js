@@ -20,10 +20,10 @@ function wrapErr(ctx, fn, onErr) {
 
 function Quo(fn, onErr) {
   if ('function' !== typeof fn)
-    throw new TypeError(`${fn} must be GeneratorFunction`);
+    throw new TypeError(`${fn} must be Function`);
 
   return function* quo() {
-    yield 'function' === typeof fn
+    yield 'function' === typeof onErr
       ? wrapErr(this, fn, onErr)
       : exec(this, fn);
   };
