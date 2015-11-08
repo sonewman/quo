@@ -1,6 +1,6 @@
 # Quo
 
-Simpify simple async responses in Koa
+Simple async responses in Koa
 
 ### Install
 ```bash
