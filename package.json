@@ -1,6 +1,6 @@
 {
   "name": "quo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simplify koa http handles",
   "main": "quo",
   "scripts": {
